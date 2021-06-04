@@ -1,3 +1,4 @@
+from os import getenv
 from flask import Flask,jsonify
 from classroom import Assasination
 
@@ -29,4 +30,4 @@ def all_characters():
 	return jsonify(qoutes.list_characters())
 
 if __name__ == '__main__':
-	app.run()
+	app.run(host=getenv("HOST", "0.0.0.0"), port=getenv("PORT", 8080))

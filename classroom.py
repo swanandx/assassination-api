@@ -12,7 +12,7 @@ class Assasination:
 		return result
 	def get_5_quotes(self):
 		result = {}
-		for _ in range(4):
+		for _ in range(5):
 			charecter, quote = choice(list(self.quotes.items()))
 			res = {charecter : choice(quote)}
 			result.update(res)	

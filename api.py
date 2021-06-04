@@ -7,7 +7,7 @@ qoutes = Assasination()
 
 @app.route('/', methods=['GET'])
 def home():
-	return '''<h4> Welcome to Assasination API <h4>\napi is at <strong> /api/ </strong>'''
+	return '''<h4> Welcome to Assassination API <h4>\napi is at <strong> /api/ </strong>'''
 
 @app.route('/api', methods=['GET'])
 def api_req():

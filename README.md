@@ -20,7 +20,7 @@ Assassination classroom is one of best anime with a lot of life lessons. This is
   <img src="./img/teach.gif" alt="Teaching" />
 </p>
 
-- Base URL - https://assassination.piyushdev.ml
+- Base URL - [URL]
 
 - Get random quote `/api/random`
 - Get 5 random quotes `/api/quotes`
